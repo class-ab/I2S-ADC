@@ -10,4 +10,10 @@
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/tac5242.pdf
 
+### Audio buffer: OPA1652
+
+- JLC: https://jlcpcb.com/partdetail/TexasInstruments-OPA1652AIDR/C30025 
+
+- Datasheet: https://www.ti.com/lit/ds/symlink/opa1652.pdf
+
 
