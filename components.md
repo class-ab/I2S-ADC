@@ -1,3 +1,5 @@
+easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitHub\kicad-parts\easyeda2kicad
+
 ### MCU: STM32F446VET6
 
 - JLC: https://jlcpcb.com/partdetail/STMicroelectronics-STM32F446VET6/C91929 
@@ -15,5 +17,3 @@
 - JLC: https://jlcpcb.com/partdetail/TexasInstruments-OPA1652AIDR/C30025 
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/opa1652.pdf
-
-
