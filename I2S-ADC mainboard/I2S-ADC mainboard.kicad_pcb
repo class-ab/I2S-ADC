@@ -90,7 +90,7 @@
 	(footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "7cb82bcf-dd2f-4d69-baae-82e4e64d6f00")
-		(at 160.855 99.955)
+		(at 150.2 93.975)
 		(descr "LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf)")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
@@ -1500,7 +1500,7 @@
 	(footprint "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 		(layer "F.Cu")
 		(uuid "9a212590-5dc5-4e2b-9cb5-36d9ae25bc2b")
-		(at 173.216306 94.7)
+		(at 187.7 95.6)
 		(property "Reference" "U3"
 			(at 0 -6.6 0)
 			(layer "F.SilkS")
@@ -1553,6 +1553,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1930,7 +1931,7 @@
 	(footprint "easyeda2kicad:VQFN-24_L4.0-W4.0-P0.50-BL-EP2.1_1"
 		(layer "F.Cu")
 		(uuid "e56e6712-72a9-497b-a650-b6a257902b45")
-		(at 155.55 112.8)
+		(at 179.95 114.5)
 		(property "Reference" "U2"
 			(at 0 -5.9 0)
 			(layer "F.SilkS")
@@ -1983,6 +1984,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
