@@ -4490,6 +4490,16 @@
 		)
 		(uuid "7711cd71-8feb-4d31-95c7-313b4f2d6a25")
 	)
+	(text "SAI1\nDOUT into SD_B\nDIN out SD_A"
+		(exclude_from_sim no)
+		(at 23.622 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8719e108-fd68-4e1b-a6fa-94f0fb3df1bc")
+	)
 	(text "tied to GND \nfor I2S mode"
 		(exclude_from_sim no)
 		(at 182.88 105.156 0)
@@ -4837,6 +4847,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fce283b6-91c0-4cfa-b671-5583663f77f2")
+	)
+	(no_connect
+		(at 143.51 100.33)
+		(uuid "fb24294f-9eb0-4940-be71-6b51c42581ad")
 	)
 	(wire
 		(pts
@@ -5768,6 +5782,16 @@
 		)
 		(uuid "013e2fdc-6e30-4c74-9791-3ec96e5f050e")
 	)
+	(label "DIN"
+		(at 40.64 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09543e45-db87-4717-860a-9cbb941c85ac")
+	)
 	(label "OSC_IN"
 		(at 36.83 25.4 0)
 		(effects
@@ -5777,6 +5801,16 @@
 			(justify left bottom)
 		)
 		(uuid "125103db-f674-4bf3-86c1-ea6562060dcd")
+	)
+	(label "FSYNC"
+		(at 40.64 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e2d9a87-a79d-42e8-a9f0-57aa465b613e")
 	)
 	(label "MD1"
 		(at 143.51 90.17 180)
@@ -5807,6 +5841,16 @@
 			(justify right bottom)
 		)
 		(uuid "5f8066dc-b052-41c0-ab98-3fc12553f9d4")
+	)
+	(label "BCLK"
+		(at 40.64 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "633f87b1-890c-4d06-aa86-137994d4d8b6")
 	)
 	(label "MD4"
 		(at 143.51 97.79 180)
@@ -5907,6 +5951,16 @@
 			(justify right bottom)
 		)
 		(uuid "b6d02a27-d1cf-4842-bce5-0c5c4796ad75")
+	)
+	(label "DOUT"
+		(at 40.64 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb6da4f9-0f4a-421d-b87e-087737e57a2f")
 	)
 	(label "OUT2P"
 		(at 171.45 82.55 0)

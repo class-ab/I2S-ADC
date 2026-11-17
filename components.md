@@ -76,8 +76,6 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - Datasheet: https://www.farnell.com/datasheets/2259188.pdf
 
-
-
 # Research:
 
 **Audio buffer:**
@@ -118,7 +116,7 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 **3.3V LDO:**
 
-AMS1117, AP2210, AP2112, ME6231, LM3940, MCP1827, ADM7154
+AMS1117, AP2210, AP2112, ME6231, LM3940, MCP1827, ADM7154, LDL1117
 
 Selected LDL1117 (S33R version = 3.3V output) for:
 
