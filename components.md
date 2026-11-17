@@ -1,28 +1,34 @@
 easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitHub\kicad-parts\easyeda2kicad
 
-# Components:
+# MCU
 
-### MCU: STM32F446VET6
+**U1: STM32F446VET6**
 
 - JLC: https://jlcpcb.com/partdetail/STMicroelectronics-STM32F446VET6/C91929 
 
 - Datasheet: https://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf 
 
-### Audio codec: TAC5242
+### Power:
 
-- JLC: https://jlcpcb.com/partdetail/TexasInstruments-TAC5242IRGER/C47122155
+**C3-11:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
-- Datasheet: https://www.ti.com/lit/ds/symlink/tac5242.pdf
+- decoupling caps for 6x VDD (+VBAT, VDDA, VREF+)
 
-### Audio buffer/filter: TLV9152
+**C12, C13:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
 
-- JLC: https://jlcpcb.com/partdetail/TexasInstruments-TLV9152IDR/C882649
+- decoupling caps for VDDA and VREF+
 
-- Datasheet: https://www.ti.com/lit/ds/symlink/tlv9152.pdf
+**C14, C15:** https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630 (2.2uF)
 
-### Crystal oscillator + capacitor
+- caps for STM32 internal regulator VCAP_1 and VCAP_2 
 
-**Crystal:** CF4008M00012001
+**C16:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
+
+- bulk decoupling cap for VDD
+
+### Crystal oscillator + capacitors
+
+**Y1:** CF4008M00012001
 
 - JLC: https://jlcpcb.com/partdetail/huaxindianzi-CF4008M00012001/C7294546
 
@@ -32,9 +38,9 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - 40 ohm ESR
 
-**Capacitors:** CC0603FRNPO9BN120
+**C1, C2:** CC0603FRNPO9BN120
 
-- JLC: https://jlcpcb.com/partdetail/YAGEO-CC0603FRNPO9BN120/C519482 
+- JLC: https://jlcpcb.com/partdetail/YAGEO-CC0603FRNPO9BN120/C519482
 
 - 12pF capacitance
 
@@ -42,7 +48,21 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - 0603 footprint
 
-Total Gmcrit: ~0.11 mA/V
+# Audio codec
+
+**U2: TAC5242**
+
+- JLC: https://jlcpcb.com/partdetail/TexasInstruments-TAC5242IRGER/C47122155
+
+- Datasheet: https://www.ti.com/lit/ds/symlink/tac5242.pdf
+
+# Audio buffer/filter
+
+**U3: TLV9152**
+
+- JLC: https://jlcpcb.com/partdetail/TexasInstruments-TLV9152IDR/C882649
+
+- Datasheet: https://www.ti.com/lit/ds/symlink/tlv9152.pdf
 
 ### 
 
