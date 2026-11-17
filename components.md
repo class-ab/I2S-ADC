@@ -10,15 +10,17 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 ### Power:
 
-**C3-11:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
+**C3-11, C19-21:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
-- decoupling caps for 6x VDD (+VBAT, VDDA, VREF+)
+- decoupling caps for 9x VDD (+VBAT, VDDA, VREF+)
 
-**C12, C13, C17:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
+- decoupling caps for 3x AVDD, DREG, IOVDD 
+
+**C12-13, C17, C25:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
 
 - decoupling caps for VDDA, VREF+ and LDL1117 
 
-**C14, C15:** https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630 (2.2uF)
+**C14-15:** https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630 (2.2uF)
 
 - caps for STM32 internal regulator VCAP_1 and VCAP_2 
 
@@ -55,6 +57,8 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 - JLC: https://jlcpcb.com/partdetail/TexasInstruments-TAC5242IRGER/C47122155
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/tac5242.pdf
+
+**C22-24:** https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 (10uF)
 
 # Audio buffer/filter
 
