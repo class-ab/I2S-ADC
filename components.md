@@ -14,17 +14,17 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - decoupling caps for 6x VDD (+VBAT, VDDA, VREF+)
 
-**C12, C13:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
+**C12, C13, C17:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
 
-- decoupling caps for VDDA and VREF+
+- decoupling caps for VDDA, VREF+ and LDL1117 
 
 **C14, C15:** https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630 (2.2uF)
 
 - caps for STM32 internal regulator VCAP_1 and VCAP_2 
 
-**C16:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
+**C16, C18:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
 
-- bulk decoupling cap for VDD
+- bulk decoupling cap for VDD and and LDL1117
 
 ### Crystal oscillator + capacitors
 
@@ -50,7 +50,7 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 # Audio codec
 
-**U2: TAC5242**
+**U2:** TAC5242
 
 - JLC: https://jlcpcb.com/partdetail/TexasInstruments-TAC5242IRGER/C47122155
 
@@ -58,13 +58,21 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 # Audio buffer/filter
 
-**U3: TLV9152**
+**U3:** TLV9152
 
 - JLC: https://jlcpcb.com/partdetail/TexasInstruments-TLV9152IDR/C882649
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/tlv9152.pdf
 
-### 
+### Power supply
+
+**U4:** LDL1117S33R
+
+- JLC: https://jlcpcb.com/partdetail/STMicroelectronics-LDL1117S33R/C435835
+
+- Datasheet: https://www.farnell.com/datasheets/2259188.pdf
+
+
 
 # Research:
 
@@ -103,3 +111,15 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
   - IS rail-to-rail (etc)
   
   - Newer design, good performance
+
+**3.3V LDO:**
+
+AMS1117, AP2210, AP2112, ME6231, LM3940, MCP1827, ADM7154
+
+Selected LDL1117 (S33R version = 3.3V output) for:
+
+- Datasheet recommends good ESR ceramic capacitors, compared to other devices asking for specific and expensive tantalum caps etc
+
+- Ultra low noise operation, power supply (input) noise rejection ratio of 87dB
+
+- Cheap and easy to use part

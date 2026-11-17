@@ -2845,6 +2845,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:LDL1117S33R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LDL1117S33R"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_STMicroelectronics-LDL1117S33R_C435835.html"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ST(意法半导体)"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LDL1117S33R"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C435835"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Linear Voltage Regulators (LDO)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LDL1117S33R_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 8.89 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LDL1117S33R_1_1"
+				(pin output line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:TAC5242IRGER_C47122155"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3997,6 +4189,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4137,6 +4468,18 @@
 		)
 		(uuid "ac6c8346-1edb-472f-9984-f56eb9544d43")
 	)
+	(rectangle
+		(start 186.69 12.7)
+		(end 240.03 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e0c40608-5448-4134-bc53-9e89a7737645")
+	)
 	(text "STM32 power decoupling\n"
 		(exclude_from_sim no)
 		(at 60.706 37.084 0)
@@ -4157,6 +4500,16 @@
 		)
 		(uuid "d760ce8e-89b6-472b-9657-9d45037510ba")
 	)
+	(text "5V to 3.3V LDO"
+		(exclude_from_sim no)
+		(at 194.818 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb21e3eb-74d0-4ac7-a079-a9b6f3f9807e")
+	)
 	(junction
 		(at 157.48 29.21)
 		(diameter 0)
@@ -4174,6 +4527,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "157b605c-de1a-40af-929a-77049263910f")
+	)
+	(junction
+		(at 201.93 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "167c97ea-8f4c-43c2-be50-c7f0c9e95218")
 	)
 	(junction
 		(at 157.48 21.59)
@@ -4198,6 +4557,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31127fcb-49a1-439c-b520-2d2fef6a6968")
+	)
+	(junction
+		(at 227.33 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39332abe-e6a3-4183-865b-3d52a1527059")
 	)
 	(junction
 		(at 63.5 44.45)
@@ -4254,6 +4619,12 @@
 		(uuid "8e344ad1-9ec5-4fec-841d-b417581338c7")
 	)
 	(junction
+		(at 213.36 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9021970a-7e3a-4cec-b158-efd0c7f2963e")
+	)
+	(junction
 		(at 88.9 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4308,6 +4679,12 @@
 		(uuid "be012eba-622d-4004-a31b-cc23dde7dd51")
 	)
 	(junction
+		(at 223.52 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bea91906-23a0-47dd-b0ed-93f236a1de4c")
+	)
+	(junction
 		(at 36.83 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4348,6 +4725,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3102d85-f1e8-4d28-9033-c4ad3101e552")
+	)
+	(junction
+		(at 198.12 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed9cbe0a-fe5d-4831-8421-52b46ad72331")
 	)
 	(junction
 		(at 24.13 26.67)
@@ -4442,6 +4825,16 @@
 			(type default)
 		)
 		(uuid "15f2e43b-c871-461c-97f9-9779c06a1a71")
+	)
+	(wire
+		(pts
+			(xy 196.85 21.59) (xy 198.12 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4a5a2a-3f58-4b3b-b833-37e4410fd00f")
 	)
 	(wire
 		(pts
@@ -4595,6 +4988,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 31.75) (xy 229.87 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581c529a-b645-4b5f-823d-8bd9863821c4")
+	)
+	(wire
+		(pts
 			(xy 67.31 187.96) (xy 67.31 189.23)
 		)
 		(stroke
@@ -4625,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 21.59) (xy 229.87 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6982e3e6-8bd3-4df0-9a15-68c810602ec5")
+	)
+	(wire
+		(pts
 			(xy 54.61 29.21) (xy 66.04 29.21)
 		)
 		(stroke
@@ -4632,6 +5045,16 @@
 			(type default)
 		)
 		(uuid "6ab10058-6336-4c0c-9515-e2feae82d20b")
+	)
+	(wire
+		(pts
+			(xy 223.52 21.59) (xy 227.33 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6b7cff-31b5-469f-ada6-9567223ff104")
 	)
 	(wire
 		(pts
@@ -4705,6 +5128,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 21.59) (xy 201.93 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848db36a-04d9-4e11-be0c-b371ab1c055e")
+	)
+	(wire
+		(pts
 			(xy 134.62 21.59) (xy 146.05 21.59)
 		)
 		(stroke
@@ -4775,6 +5208,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 27.94) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebd7c5c-e92f-4f20-a5c6-7858a3d4b81f")
+	)
+	(wire
+		(pts
 			(xy 35.56 165.1) (xy 39.37 165.1)
 		)
 		(stroke
@@ -4825,6 +5268,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 29.21) (xy 196.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c08ffc-7820-492e-87cc-9e86fad89d50")
+	)
+	(wire
+		(pts
 			(xy 77.47 29.21) (xy 88.9 29.21)
 		)
 		(stroke
@@ -4855,6 +5308,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 31.75) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2747af7-3fef-4aca-a454-94437c5bbd36")
+	)
+	(wire
+		(pts
+			(xy 223.52 21.59) (xy 223.52 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e400f262-ff95-4f2d-bf4e-653298ab6afc")
+	)
+	(wire
+		(pts
 			(xy 54.61 21.59) (xy 66.04 21.59)
 		)
 		(stroke
@@ -4862,6 +5335,16 @@
 			(type default)
 		)
 		(uuid "ea187e00-432a-4437-a39e-ea8ef5a04a31")
+	)
+	(wire
+		(pts
+			(xy 201.93 31.75) (xy 213.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6a6468-9fc1-46b4-9c38-9dbfbd8ccdb9")
 	)
 	(wire
 		(pts
@@ -4882,6 +5365,16 @@
 			(type default)
 		)
 		(uuid "fdbfd0dd-9665-4c59-a696-5a41669fd794")
+	)
+	(wire
+		(pts
+			(xy 229.87 29.21) (xy 229.87 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf66efb-2cc0-45b7-a9b2-ac49f08bdf3b")
 	)
 	(label "OSC_IN"
 		(at 36.83 25.4 0)
@@ -5154,6 +5647,87 @@
 			(project "I2S-ADC mainboard"
 				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1086d7e7-1332-4bc9-b8ac-747b2b03f918")
+		(property "Reference" "C18"
+			(at 232.41 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 232.41 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 230.8352 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e91df487-0da4-449a-aab6-f0a2b1e545d3")
+		)
+		(pin "1"
+			(uuid "d56ea75f-f9f6-402b-a9b3-802970cb3fbc")
+		)
+		(instances
+			(project "I2S-ADC mainboard"
+				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5687,6 +6261,161 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a604aba-bee5-4a25-9f0f-d8beb1bbba88")
+		(property "Reference" "#PWR08"
+			(at 213.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.662 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd88b807-d4d9-4eaf-a559-d9cbed02e12f")
+		)
+		(instances
+			(project "I2S-ADC mainboard"
+				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eec09bd-3742-4239-ac37-3d0f679b9ecc")
+		(property "Reference" "#PWR010"
+			(at 198.12 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 198.12 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28a094b4-cca3-45e3-bd69-aff93573d964")
+		)
+		(instances
+			(project "I2S-ADC mainboard"
+				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 168.91 0)
 		(mirror y)
@@ -5851,6 +6580,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 196.85 25.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c2173c8-c992-45c9-8414-fd1ad64b271e")
+		(property "Reference" "C17"
+			(at 194.31 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 194.31 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.8848 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5be9c89-d284-4dc3-8d3e-20c2ba4fd752")
+		)
+		(pin "1"
+			(uuid "98dcd302-2a4f-48d2-9bd7-557164c7b8e8")
+		)
+		(instances
+			(project "I2S-ADC mainboard"
+				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 100.33 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -5925,6 +6736,84 @@
 			(project "I2S-ADC mainboard"
 				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 227.33 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "727f37d3-0c33-448e-9f30-ccb066e9b473")
+		(property "Reference" "#PWR09"
+			(at 227.33 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 227.33 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 227.33 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "749a4933-4047-4621-8e9d-8afdb7d2d8bd")
+		)
+		(instances
+			(project "I2S-ADC mainboard"
+				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6110,28 +6999,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "66fe9563-8bb5-4ff5-9489-d10a3ee0e60a")
+			(uuid "66fe9563-8bb5-4ff5-9489-d10a3ee0e60b")
 		)
 		(pin "6"
-			(uuid "943f5ac0-140c-43b2-91c2-f000c05e63e5")
+			(uuid "943f5ac0-140c-43b2-91c2-f000c05e63e6")
 		)
 		(pin "8"
-			(uuid "3d47f89e-204c-494b-8972-6c78cff5a686")
+			(uuid "3d47f89e-204c-494b-8972-6c78cff5a687")
 		)
 		(pin "7"
-			(uuid "38ba9c83-93aa-4381-ab39-5e3d18bd680b")
+			(uuid "38ba9c83-93aa-4381-ab39-5e3d18bd680c")
 		)
 		(pin "1"
-			(uuid "fee9c8f4-ec2f-4749-bf86-75f25660d232")
+			(uuid "fee9c8f4-ec2f-4749-bf86-75f25660d233")
 		)
 		(pin "2"
-			(uuid "e95cde53-47bd-4d47-a23f-c8c5b5081e22")
+			(uuid "e95cde53-47bd-4d47-a23f-c8c5b5081e23")
 		)
 		(pin "3"
-			(uuid "1e3a1057-60df-4271-a8fc-d21b89bd2fb1")
+			(uuid "1e3a1057-60df-4271-a8fc-d21b89bd2fb2")
 		)
 		(pin "5"
-			(uuid "d2c306ec-36bb-483f-9d9e-89431e4db143")
+			(uuid "d2c306ec-36bb-483f-9d9e-89431e4db144")
 		)
 		(instances
 			(project "I2S-ADC mainboard"
@@ -6144,7 +7033,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TAC5242IRGER_C47122155")
-		(at 248.92 59.69 0)
+		(at 248.92 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6155,7 +7044,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d8a6036-0b0f-40d6-b26a-d69907816737")
 		(property "Reference" "U2"
-			(at 248.92 85.09 0)
+			(at 248.92 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6165,7 +7054,7 @@
 			)
 		)
 		(property "Value" "TAC5242IRGER_C47122155"
-			(at 248.92 87.63 0)
+			(at 248.92 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6175,7 +7064,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:VQFN-24_L4.0-W4.0-P0.50-BL-EP2.1_1"
-			(at 248.92 87.63 0)
+			(at 248.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +7075,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C47122155.pdf"
-			(at 248.92 90.17 0)
+			(at 248.92 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +7086,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 59.69 0)
+			(at 248.92 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,7 +7097,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 248.92 92.71 0)
+			(at 248.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6219,7 +7108,7 @@
 			)
 		)
 		(property "MPN" "TAC5242IRGER"
-			(at 248.92 95.25 0)
+			(at 248.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6230,7 +7119,7 @@
 			)
 		)
 		(property "LCSC Part" "C47122155"
-			(at 248.92 97.79 0)
+			(at 248.92 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7248,6 +8137,125 @@
 			(project "I2S-ADC mainboard"
 				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:LDL1117S33R")
+		(at 212.09 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d6efbe-948d-4e9b-876e-0a200c73a653")
+		(property "Reference" "U4"
+			(at 212.725 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LDL1117S33R"
+			(at 212.725 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR"
+			(at 212.09 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_STMicroelectronics-LDL1117S33R_C435835.html"
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ST(意法半导体)"
+			(at 212.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LDL1117S33R"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C435835"
+			(at 212.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66966114-403d-4423-a55d-68596299101a")
+		)
+		(pin "1"
+			(uuid "b72db489-0cd4-48b4-b01b-5c5d8fae73ac")
+		)
+		(pin "4"
+			(uuid "7e42f4f8-f61a-4ee6-babc-9d0da664840c")
+		)
+		(pin "3"
+			(uuid "36b508bb-8408-4857-b9ec-70a6ee05d295")
+		)
+		(instances
+			(project "I2S-ADC mainboard"
+				(path "/d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
+					(reference "U4")
 					(unit 1)
 				)
 			)
