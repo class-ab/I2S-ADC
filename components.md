@@ -68,6 +68,12 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/tlv9152.pdf
 
+**U5:** THS4521IDGKR
+
+- JLC: https://jlcpcb.com/partdetail/TexasInstruments-THS4521IDGKR/C170157
+
+- Datasheet: https://www.ti.com/lit/ds/symlink/ths4521.pdf
+
 ### Power supply
 
 **U4:** LDL1117S33R
