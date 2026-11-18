@@ -10,15 +10,13 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 #### Power:
 
-**C3-11, C19-21:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
+**C3-11, C19-21, C32:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
-- decoupling caps for 9x VDD (+VBAT, VDDA, VREF+)
-
-- decoupling caps for 3x AVDD, DREG, IOVDD 
+- decoupling caps for 9x VDD (+VBAT, VDDA, VREF+), 3x AVDD, DREG, IOVDD, 1x TLV9152
 
 **C12-13, C17, C25-26:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
 
-- decoupling caps for VDDA, VREF+ and LDL1117 
+- decoupling caps for STM32, LDL1117S33R and LDL1117S50R  
 
 **C14-15:** https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630 (2.2uF)
 
@@ -26,7 +24,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 **C16, C18, C27:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
 
-- bulk decoupling cap for VDD and and LDL1117
+- bulk decoupling caps for STM32, LDL1117S33R and LDL1117S50R
 
 #### Crystal oscillator + capacitors
 
@@ -58,7 +56,9 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/tac5242.pdf
 
-**C22-24, C30-31:** https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 (10uF)
+**C22-24, C30-31, C36-37:** https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 (10uF)
+
+- decoupling caps for TAC5242, TPS63070 and TLV9152
 
 # Audio buffer/filter
 
@@ -73,6 +73,10 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 - JLC: https://jlcpcb.com/partdetail/TexasInstruments-THS4521IDGKR/C170157
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/ths4521.pdf
+
+**R9:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD071ML/C326730
+
+**R10:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100RL/C122970
 
 # Power
 
@@ -104,13 +108,15 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 **C35:** https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525 (100nF 0402)
 
+- decoupling caps for TPS63070 (x3 above)
+
 **R1:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07300KL/C705762 (300k)
 
 **R2:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0751KL/C861458 (51k)
 
-**R3:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0710KL/C95204 (10k)
+**R3, R5:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0710KL/C95204 (10k)
 
-**R4:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100KL/C122538 (100k)
+**R4, R6-8:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100KL/C122538 (100k)
 
 # Research:
 
