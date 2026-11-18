@@ -1,4 +1,4 @@
-easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitHub\kicad-parts\easyeda2kicad
+easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kicad-parts\easyeda2kicad
 
 # MCU
 
@@ -8,7 +8,7 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - Datasheet: https://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf 
 
-### Power:
+#### Power:
 
 **C3-11, C19-21:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
@@ -16,7 +16,7 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - decoupling caps for 3x AVDD, DREG, IOVDD 
 
-**C12-13, C17, C25:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
+**C12-13, C17, C25-26:** https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849 (1uF)
 
 - decoupling caps for VDDA, VREF+ and LDL1117 
 
@@ -24,11 +24,11 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - caps for STM32 internal regulator VCAP_1 and VCAP_2 
 
-**C16, C18:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
+**C16, C18, C27:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
 
 - bulk decoupling cap for VDD and and LDL1117
 
-### Crystal oscillator + capacitors
+#### Crystal oscillator + capacitors
 
 **Y1:** CF4008M00012001
 
@@ -58,7 +58,7 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/tac5242.pdf
 
-**C22-24:** https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 (10uF)
+**C22-24, C30-31:** https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 (10uF)
 
 # Audio buffer/filter
 
@@ -74,13 +74,43 @@ easyeda2kicad --full --lcsc_id=Cxxxxxxxx --output  C:\Users\aiden\Documents\GitH
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/ths4521.pdf
 
-### Power supply
+# Power
 
 **U4:** LDL1117S33R
 
 - JLC: https://jlcpcb.com/partdetail/STMicroelectronics-LDL1117S33R/C435835
 
 - Datasheet: https://www.farnell.com/datasheets/2259188.pdf
+
+**U6:** LDL1117S0R 
+
+- JLC: https://jlcpcb.com/partdetail/STMicroelectronics-LDL1117S50R/C970558
+
+- Datasheet: https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/0e/5a/00/ca/10/1a/4f/a5/DM00366442/files/DM00366442.pdf/jcr:content/translations/en.DM00366442.pdf
+
+**U7:** TPS63070RNMR
+
+- JLC: https://jlcpcb.com/partdetail/TexasInstruments-TPS63070RNMR/C109322
+
+- Datasheet: https://www.ti.com/lit/ds/symlink/tps63070.pdf
+
+**L1:** XFL4020-152MEC
+
+- JLC: https://jlcpcb.com/partdetail/Coilcraft-XFL4020152MEC/C3033018 
+
+**C28-29:** https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850 (10uF 0805)
+
+**C32-34:** https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783 (22uF)
+
+**C35:** https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525 (100nF 0402)
+
+**R1:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07300KL/C705762 (300k)
+
+**R2:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0751KL/C861458 (51k)
+
+**R3:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0710KL/C95204 (10k)
+
+**R4:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100KL/C122538 (100k)
 
 # Research:
 
