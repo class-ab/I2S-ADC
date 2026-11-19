@@ -10,7 +10,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 #### Power:
 
-**C3-11, C19-21, C32:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
+**C3-11, C19-21, C32, C39:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
 - decoupling caps for 9x VDD (+VBAT, VDDA, VREF+), 3x AVDD, DREG, IOVDD, 1x TLV9152
 
@@ -74,9 +74,19 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/ths4521.pdf
 
-**R9:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD071ML/C326730
+**R9:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD071ML/C326730 (1M)
 
-**R10:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100RL/C122970
+**C38:** https://jlcpcb.com/partdetail/MurataElectronics-GRM31M5C1H473JA01L/C21812 (47nF 1206)
+
+**R6, R10-12:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD074K99L/C723532 (4.99k)
+
+**C40-41:** https://jlcpcb.com/partdetail/KYET-MPBH106K2H2701/C18214247 (10uF film)
+
+# Connectors
+
+**J1:** 6.35mm stereo jack right-angled (PJ-609BA)
+
+- JLC: https://jlcpcb.com/partdetail/HOOYA-PJ609BA/C309277
 
 # Power
 
@@ -104,7 +114,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 **C28-29:** https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850 (10uF 0805)
 
-**C32-34:** https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783 (22uF)
+**C33-34:** https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783 (22uF)
 
 **C35:** https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525 (100nF 0402)
 
