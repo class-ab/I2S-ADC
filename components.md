@@ -88,6 +88,12 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 - JLC: https://jlcpcb.com/partdetail/HOOYA-PJ609BA/C309277
 
+**J2:** USB-C SMD connector (1054500101)
+
+- JLC: https://jlcpcb.com/partdetail/MOLEX-1054500101/C134092
+
+- Datasheet: https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105450/1054500101_sd.pdf?inline\
+
 # Power
 
 **U4:** LDL1117S33R
