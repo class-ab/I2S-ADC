@@ -113,6 +113,8 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 - Datasheet: https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105450/1054500101_sd.pdf?inline\
 
+**J3:** https://jlcpcb.com/partdetail/Samtec-FTSH_107_01_L_DVK/C5307809 SWD - STM32
+
 # Power
 
 **U4:** LDL1117S33R
