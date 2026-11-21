@@ -10,7 +10,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 #### Power:
 
-**C3-11, C19-21, C32, C39:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
+**C3-11, C19-21, C32, C39, C42:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
 - decoupling caps for 9x VDD (+VBAT, VDDA, VREF+), 3x AVDD, DREG, IOVDD, 1x TLV9152
 
@@ -56,7 +56,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 - Datasheet: https://www.ti.com/lit/ds/symlink/tac5242.pdf
 
-**C22-24, C30-31, C36-37:** https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 (10uF)
+**C22-24, C30-31, C36-37, C43:** https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 (10uF)
 
 - decoupling caps for TAC5242, TPS63070 and TLV9152
 
@@ -80,7 +80,26 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 **R6, R10-12:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD074K99L/C723532 (4.99k)
 
-**C40-41:** https://jlcpcb.com/partdetail/KYET-MPBH106K2H2701/C18214247 (10uF film)
+**C40-41, C44-45:** https://jlcpcb.com/partdetail/KYET-MEB106K2A1501/C49215602 (10uF film)
+
+**U8:** OPA1612AIDR
+
+- JLC: https://jlcpcb.com/partdetail/TexasInstruments-OPA1612AIDR/C94590
+
+- Datasheet: https://www.ti.com/lit/ds/symlink/opa1612.pdf
+
+**FB1-2:** https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017
+
+**D1-2:** https://jlcpcb.com/partdetail/onsemi-ESD5Z33T1G/C61148
+**R16, R17:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD071KL/C110776 (1k)
+
+**R13, R14:** https://jlcpcb.com/partdetail/3448513-TC0325B2001T5F/C2989090 (2k)
+
+**R15:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0764R9L/C861511 (64.9)
+
+**C46-47:** https://jlcpcb.com/partdetail/546277-GCM1885C2A101FA16D/C527967 (100pF)
+
+**C48:** https://jlcpcb.com/partdetail/YAGEO-CC0603FRNPO9BN102/C309468 (1nF)
 
 # Connectors
 
