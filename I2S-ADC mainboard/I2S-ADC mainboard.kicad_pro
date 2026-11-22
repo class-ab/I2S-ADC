@@ -700,7 +700,7 @@
         "uuid": "d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
       }
     ],
-    "used_designators": "FB1-2,CRYSTAL1,USBC1,U8,D1-2,#PWR29,#PWR32,#PWR37-38,C42-48,R13-17,CN1",
+    "used_designators": "#PWR39-40",
     "variants": []
   },
   "sheets": [
