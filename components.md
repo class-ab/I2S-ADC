@@ -139,7 +139,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 - JLC: https://jlcpcb.com/partdetail/Coilcraft-XFL4020152MEC/C3033018 
 
-**C28-29:** https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850 (10uF 0805)
+**C29:** https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850 (10uF 0805)
 
 **C33-34:** https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783 (22uF)
 
@@ -154,6 +154,14 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 **R3, R5:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0710KL/C95204 (10k)
 
 **R4, R6-8:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100KL/C122538 (100k)
+
+**R18-19:** https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186 (5.1k)
+
+**U9:** https://jlcpcb.com/partdetail/Stmicroelectronics-USBLC62SC6/C7519
+
+**D3:** https://jlcpcb.com/partdetail/onsemi-ESD5Z50T1G/C82044
+
+**FB3:** https://jlcpcb.com/partdetail/MurataElectronics-BLM18PG121SN1D/C14709
 
 # Research:
 
