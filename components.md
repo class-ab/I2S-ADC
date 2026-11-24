@@ -10,7 +10,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 #### Power:
 
-**C3-11, C19-21, C32, C39, C42:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
+**C3-11, C19-21, C32, C39, C42, C49:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
 - decoupling caps for 9x VDD (+VBAT, VDDA, VREF+), 3x AVDD, DREG, IOVDD, 1x TLV9152
 
@@ -114,6 +114,8 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 - Datasheet: https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105450/1054500101_sd.pdf?inline\
 
 **J3:** https://jlcpcb.com/partdetail/Samtec-FTSH_107_01_L_DVK/C5307809 SWD - STM32
+
+**J4:** https://jlcpcb.com/partdetail/Neutrik-NC3FAAH2/C368522 XLR
 
 # Power
 
