@@ -10,7 +10,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 #### Power:
 
-**C3-11, C19-21, C32, C39, C42, C49-50:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
+**C3-11, C19-21, C32, C39, C42, C49-52:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
 - decoupling caps for 9x VDD (+VBAT, VDDA, VREF+), 3x AVDD, DREG, IOVDD, 1x TLV9152
 
@@ -22,11 +22,11 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 - caps for STM32 internal regulator VCAP_1 and VCAP_2 
 
-**C16, C18, C27:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
+**C16, C18, C27, C54:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
 
 - bulk decoupling caps for STM32, LDL1117S33R and LDL1117S50R
 
-**SW1-3:** https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477
+**SW1-2:** https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477
 
 #### Crystal oscillator + capacitors
 
@@ -165,54 +165,10 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 **D3:** https://jlcpcb.com/partdetail/onsemi-ESD5Z50T1G/C82044
 
-**FB3:** https://jlcpcb.com/partdetail/MurataElectronics-BLM18PG121SN1D/C14709
+**FB3:** https://jlcpcb.com/partdetail/MurataElectronics-BLM18PG221SN1D/C80165
 
-# Research:
+**C28, C53:** https://jlcpcb.com/partdetail/2062-CL21B103KBANNNC/C1710
 
-**Audio buffer:**
+**C55:** https://jlcpcb.com/partdetail/350246-CL21A225KBQNNNE/C377773
 
-- OPA1652
-  
-  - JLC: https://jlcpcb.com/partdetail/TexasInstruments-OPA1652AIDR/C30025
-  
-  - Datasheet: https://www.ti.com/lit/ds/symlink/opa1652.pdf
-  
-  - NOT rail-to-rail
-  
-  - NOT easy to use with single-supply
-  
-  - Excellent performance etc, but hard to achieve anyway?
-
-- LMC6482
-  
-  - JLC: https://jlcpcb.com/partdetail/TexasInstruments-LMC6482AIMXNOPB/C12620
-  
-  - Datasheet: https://www.ti.com/lit/ds/symlink/lmc6482.pdf?
-  
-  - IS rail-to-rail
-  
-  - IS easy to use with single supply
-  
-  - Mediocre performance, older design
-
-- TLV9152
-  
-  - JLC: https://jlcpcb.com/partdetail/TexasInstruments-TLV9152IDR/C882649
-  
-  - Datasheet: https://www.ti.com/lit/ds/symlink/tlv9152.pdf
-  
-  - IS rail-to-rail (etc)
-  
-  - Newer design, good performance
-
-**3.3V LDO:**
-
-AMS1117, AP2210, AP2112, ME6231, LM3940, MCP1827, ADM7154, LDL1117
-
-Selected LDL1117 (S33R version = 3.3V output) for:
-
-- Datasheet recommends good ESR ceramic capacitors, compared to other devices asking for specific and expensive tantalum caps etc
-
-- Ultra low noise operation, power supply (input) noise rejection ratio of 87dB
-
-- Cheap and easy to use part
+**R33:** https://jlcpcb.com/partdetail/25926-0603WAF390LT5E/C25183
