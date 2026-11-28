@@ -10,7 +10,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 #### Power:
 
-**C3-11, C19-21, C32, C39, C42, C49:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
+**C3-11, C19-21, C32, C39, C42, C49-50:** https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663 (100nF)
 
 - decoupling caps for 9x VDD (+VBAT, VDDA, VREF+), 3x AVDD, DREG, IOVDD, 1x TLV9152
 
@@ -25,6 +25,8 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 **C16, C18, C27:** https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666 (4.7uF)
 
 - bulk decoupling caps for STM32, LDL1117S33R and LDL1117S50R
+
+**SW1-3:** https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477
 
 #### Crystal oscillator + capacitors
 
@@ -91,7 +93,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 **FB1-2:** https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017
 
 **D1-2:** https://jlcpcb.com/partdetail/onsemi-ESD5Z33T1G/C61148
-**R16, R17:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD071KL/C110776 (1k)
+**R16-17, R22:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD071KL/C110776 (1k)
 
 **R13, R14:** https://jlcpcb.com/partdetail/3448513-TC0325B2001T5F/C2989090 (2k)
 
@@ -153,7 +155,7 @@ easyeda2kicad --full --lcsc_id=Cx --output  C:\Users\aiden\Documents\GitHub\kica
 
 **R2:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0751KL/C861458 (51k)
 
-**R3, R5:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0710KL/C95204 (10k)
+**R3, R5, R20-21:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0710KL/C95204 (10k)
 
 **R4, R6-8:** https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100KL/C122538 (100k)
 

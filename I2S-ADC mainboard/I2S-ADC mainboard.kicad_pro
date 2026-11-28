@@ -700,7 +700,7 @@
         "uuid": "d9918675-6c6d-41a8-b5bb-8b9a0134c9f0"
       }
     ],
-    "used_designators": "#PWR42,#PWR49,C49",
+    "used_designators": "R20-24,C50,SW1-3,#PWR50-55",
     "variants": []
   },
   "sheets": [
